@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read the image
-img_array = cv2.imread("rpi4.jpg", cv2.IMREAD_COLOR)
+img_array = cv2.imread("car.jpg", cv2.IMREAD_COLOR)
 
 # Remove the blue content
 img_array[:, :, 0] = 0
