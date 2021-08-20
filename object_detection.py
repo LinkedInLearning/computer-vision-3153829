@@ -22,3 +22,13 @@ for img_file in listdir(img_dir):
     train_features.append(hog.compute(img))
     print(train_features[0].shape)
     break
+    
+# Create linear SVM
+
+# Train and save SVM
+
+# Configure detector
+
+# Load test images
+
+# Test detector
