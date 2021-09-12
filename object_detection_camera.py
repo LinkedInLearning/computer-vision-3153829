@@ -6,10 +6,15 @@ import time
 
 # Create HOG descriptor 
 
+
 # Load SVM and configure descriptor
 
+
 # Access camera and stream
+
     
 # Preprocess and analyze images
+
             
     # Perform object detection and save result
+    
