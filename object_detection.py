@@ -29,10 +29,7 @@ train_features = []
 train_labels = []
 img_dir = 'train_imgs'
 for img_file in listdir(img_dir):
-    img = cv2.imread(img_dir + '/' + img_file, cv2.IMREAD_COLOR)
-    img = img.astype(np.float64) - np.mean(img)
-    img /= np.std(img)
-    img = cv2.normalize(img, None, 0, 255, cv2.NORM_MINMAX, cv2.CV_8U)
+    img = preprocess(img_dir, img_file)
     train_features.append(hog.compute(img))
     print(train_features[0].shape)
     break
