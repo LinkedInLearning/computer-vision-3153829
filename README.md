@@ -1,8 +1,10 @@
 # Computer Vision on the Raspberry Pi 4
-This is the repository for the LinkedIn Learning course `Computer Vision on the Raspberry Pi 4`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Computer Vision on the Raspberry Pi 4. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![Computer Vision on the Raspberry Pi 4][lil-thumbnail-url] 
 
-_See the readme file in the main branch for updated instructions and information._
+More and more applications are using computer vision to detect and recognize objects. These applications usually execute on large computers, but developers can save money and power by running them on single-board computers (SBCs). The Raspberry Pi 4 is one of the most popular SBCs available. It's also the first computer in the Raspberry Pi family powerful enough to execute computer vision applications. Also, the software needed to build these applications can be downloaded freely from the Internet.  In this course, instructor Matt Scarpino shows programmers how to write and execute computer vision applications on the Raspberry Pi 4. Matt introduces you to using the Thonny IDE, the OpenCV library, and NumPy array operations. He steps through object detection and neural networks, then explores convolutional neural networks (CNNs), including the Keras package and the TensorFlow package. Matt also walks you through what you can do with a Raspberry Pi HQ camera.
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -28,8 +30,15 @@ To resolve this issue:
 3. [Course-specific instructions]
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Matt Scarpino 
+                            
 
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/matt-scarpino).
+
+[lil-course-url]: https://www.linkedin.com/learning/computer-vision-on-the-raspberry-pi-4
+[lil-thumbnail-url]: https://cdn.lynda.com/course/3153829/3153829-1635434273646-16x9.jpg
