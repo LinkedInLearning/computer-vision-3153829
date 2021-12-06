@@ -1,5 +1,5 @@
 from PIL import Image
-import tflite_runtime.ip as tflite
+import tflite_runtime.interpreter as tflite
 import numpy as np
 from os import listdir
 
